@@ -14,7 +14,7 @@ export default makeStyles({
     display: "flex",
     flexDirection: "column",
     justifyContent: "space-between",
-    borderBottom: "10px solid white",
+    border: "0.5px solid",
   },
   activeCard: {
     borderBottom: "10px solid #22289a",
@@ -28,7 +28,7 @@ export default makeStyles({
     margin: "20px",
   },
   title: {
-    padding: "0 16px",
+    marginLeft: "2px",
   },
   cardActions: {
     padding: "0 16px 8px 16px",

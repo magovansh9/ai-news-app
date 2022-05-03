@@ -4,6 +4,7 @@ import wordsToNumbers from "words-to-numbers";
 
 import NewsCards from "./components/NewsCards/NewsCards";
 import useStyles from "./styles.js";
+import researchImg from "./images/Research.png";
 
 const alanKey =
   "4af44a9cc1b6f2cb66041eaf0e4ec5432e956eca572e1d8b807a3e2338fdd0dc/stage";
@@ -33,7 +34,7 @@ const App = () => {
           if (parsedNumber > 20) {
             alanBtn().playText("Please try that again.");
           } else if (article) {
-            window.open(articles[number].url, "_blank");
+            window.open(articles[number - 1].url, "_blank");
             alanBtn().playText("Opening...");
           }
 
@@ -46,11 +47,7 @@ const App = () => {
   return (
     <div>
       <div className={classes.logoContainer}>
-        <img
-          src='https://miro.medium.com/max/600/1*CJyCnZVdr-EfgC27MAdFUQ.jpeg'
-          className={classes.alanLogo}
-          alt='Alan Logo'
-        />
+        <img src={researchImg} className={classes.alanLogo} alt='Alan Logo' />
       </div>
       <NewsCards articles={newsArticles} activeArticle={activeArticle} />
     </div>
