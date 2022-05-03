@@ -7,7 +7,7 @@ const infoCards = [
   { color: "white", title: "Latest News", text: "Give me the latest news" },
   {
     color: "white",
-    title: "News by Categories",
+    title: "Articles by Categories",
     info: "Business, Entertainment, General, Health, Science, Sports, Technology",
     text: "Give me the latest Technology Articles",
   },
@@ -19,7 +19,7 @@ const infoCards = [
   },
   {
     color: "white",
-    title: "News by Sources",
+    title: "Articles by Sources",
     info: "Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
     text: "Give me the news from ABC News",
   },
