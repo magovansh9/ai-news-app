@@ -20,7 +20,7 @@ const infoCards = [
   {
     color: "white",
     title: "Articles by Sources",
-    info: "Wired, BBC News, Time, IGN, Buzzfeed, ABC News...",
+    info: "BBC News, Buzzfeed, ABC News, Wired...",
     text: "Give me the news from ABC News",
   },
 ];
