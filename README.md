@@ -24,5 +24,5 @@ React is a free and open-source front-end JavaScript library for building user i
 
 News API is a simple HTTP REST API for searching and retrieving live articles from all over the web. Used to extract articles on topics requested by the user.
 
-Try out ResearchAiD [here](https://researchaid.netlify.app)
+Try out ResearchAiD [here](https://researchaid.netlify.app)!
 
