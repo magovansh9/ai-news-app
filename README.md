@@ -8,7 +8,7 @@ Often, during research we tend to have an invasion of ideas and information. Whe
 
 Topic in mind -> ask ResearchAiD about it ->  ResearchAiD pulls articles from requested sources -> ResearchAiD reads and scrolls through article headlines -> ask ResearchAiD to open an article you like -> Research on!
 
-ResearchAiD is voice controlled! That means it does away with the laborious process of extracting information from credible sources and scanning through an endless list of articles.
+ResearchAiD is voice controlled! That means, it does away with the laborious process of extracting information from credible sources and scanning through an endless list of articles.
 
 ## Tech Stack
 
