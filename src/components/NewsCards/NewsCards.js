@@ -4,7 +4,6 @@ import { Grid, Grow, Typography } from "@material-ui/core";
 import useStyles from "./styles.js";
 
 const infoCards = [
-  { color: "white", title: "Latest News", text: "Give me the latest news" },
   {
     color: "white",
     title: "Articles by Categories",
@@ -37,6 +36,33 @@ const NewsCards = ({ articles, activeArticle }) => {
           alignItems='stretch'
           spacing={3}
         >
+          <Grid
+              item
+              xs={12}
+              sm={6}
+              md={4}
+              lg={3}
+              className={classes.infoCard}
+            >
+              <div
+                className={classes.card}
+                style={{ backgroundColor: "white" }}
+              >
+                <Typography variant='h5'>Talk to ResearchAid!</Typography>
+                  <Typography variant='h6'>
+                    <strong>Some Sample Commands </strong>
+                    <br />
+                    1) What's up with Tesla?<br/>
+                    2) Open Article #4 <br/>
+                    3) Good job!<br/>
+                    4) Go back to the homepage
+                  </Typography>
+                <Typography variant='h6'>
+                  Try saying: <br />
+                  <i>Give me the latest Sports news. Open Article #2. Go back please. Thank you!</i>
+                </Typography>
+              </div>
+            </Grid>
           {infoCards.map((infoCard) => (
             <Grid
               item
